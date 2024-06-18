@@ -1,0 +1,577 @@
+*{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+
+.right{
+    width: 75vw;
+}
+
+.home ul li{
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+    padding-top: 14px;
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.home{
+    width: 23vw;
+}
+
+.home> :nth-child(2) {
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    font-size: 16px;
+    color: grey;
+}
+
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    padding: 23px 14px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+
+.heading> :nth-child(3){
+    padding-left: 136px;
+}
+
+.heading img{
+    width: 30px;
+}
+
+.library{
+    min-height: 80vh;
+    position: relative;
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    font-size: 16px;
+    color: grey;
+    width: 23vw;
+
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgb(167, 167, 167);
+    position: absolute;
+    bottom: 0;
+    padding: 60px 0px;
+    align-items: center;
+}
+
+.footer div{
+    padding: 7px 20px;
+}
+
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+
+.button img{
+    width: 16px;
+    height: 16px;
+}
+
+.button{
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0px;
+    border: 0.2px solid grey;
+    border-radius: 15px;
+    width: 90px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.right{
+    margin: 16px -5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > *{
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.nav .button1{
+    opacity: .6;
+    background-color: rgba(0, 0, 0, .7);
+    border: none;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.nav .button2{
+    opacity: .6;
+    background-color: rgba(0, 0, 0, .7);
+    border: none;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.button1 .IYDlXmBmmUKHveMzIPCF{
+    opacity: 1;
+    padding-top: 7px;
+}
+
+.button2 .IYDlXmBmmUKHveMzIPCF{
+    opacity: 1;
+    padding-top: 7px;
+}
+
+.first{
+    background-color: #1c1c1c;
+}
+
+.Popularartists{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Popularartists p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.Popularartists a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 193px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card img{
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+.card span{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card .about{
+    color: grey;
+}
+
+.Popularalbums{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Popularalbums p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.Popularalbums a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cardContainer2{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card2{
+    font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    width: 193px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card2 img{
+    border-radius: 4%;
+    object-fit: contain;
+}
+
+.card2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card2 span{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card2 .about a{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Popularradio{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+}
+
+.Popularradio p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.Popularradio a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cardContainer3{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card3{
+    font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    width: 193px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card3 img{
+    border-radius: 4%;
+    object-fit: contain;
+}
+
+.card3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card3 span{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card3 .about{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Featuredcharts{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+}
+
+.Featuredcharts p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.Featuredcharts a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cardContainer4{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card4{
+    font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    width: 193px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card4 img{
+    border-radius: 4%;
+    object-fit: contain;
+}
+
+.card4 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card4 span{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card4 .about{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Spotifyplaylists{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+}
+
+.Spotifyplaylists p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.Spotifyplaylists a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cardContainer5{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card5{
+    font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    width: 193px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card5 img{
+    border-radius: 4%;
+    object-fit: contain;
+}
+
+.card5 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card5 span{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card5 .about{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Trendingepisodes{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+}
+
+.Trendingepisodes p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.Trendingepisodes a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cardContainer6{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card6{
+    font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    width: 193px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card6 img{
+    border-radius: 4%;
+    object-fit: contain;
+}
+
+.card6 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card6 span{
+    font-family: CircularSpTitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card6 .about{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.about1:not(:last-child):after{
+    content: "•";
+    margin: 0 4px;
+}
+
+.footer1{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+
+.footer-item{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.footer-item a{
+    text-decoration: none;
+    color: grey;
+}
+
+.button3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.button3 a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(41, 41, 41);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separation{
+    height: 1px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+footer{
+    padding-left: 20px;
+    padding-top: 40px;
+    color: rgb(167, 167, 167);
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 80px;
+}

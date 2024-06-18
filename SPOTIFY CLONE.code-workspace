@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../SPOTIFY CLONE"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c"
+		}
+	}
+}
